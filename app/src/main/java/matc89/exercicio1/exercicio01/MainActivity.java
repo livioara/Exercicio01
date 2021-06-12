@@ -35,11 +35,10 @@ public class MainActivity extends AppCompatActivity {
     }
     @Override
     public void onSaveInstanceState(@NonNull Bundle savedInstanceState) {
-        // Salve todos seus dados aqui, lembrando que se for objeto é preciso ser serializable ou de preferencia parcelable
         super.onSaveInstanceState(savedInstanceState);
+
         savedInstanceState.putString(CHAVE_NOME, nome);
-        //Toast.makeText(this, nome, Toast.LENGTH_SHORT).show();
-        // Sempre chamar a super classe depois de salvar as instancias
+
 
     }
 
