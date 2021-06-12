@@ -44,7 +44,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="56dp"
         android:gravity="center_horizontal"
-        android:text="Alô"
+        android:text="Alô, Mundo!"
         android:textColor="#E61010"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
