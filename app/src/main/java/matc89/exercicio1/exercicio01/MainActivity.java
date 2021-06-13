@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
     public void cumprimentar(View view){
 
         nome =campoNome.getText().toString();
-        campoMensagem.setText("Alô: " + nome +"!");
+        campoMensagem.setText("Alô, " + nome +"!");
         campoNome.setText("");
 
     }
@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         super.onRestoreInstanceState(savedInstanceState);
 
         nome= savedInstanceState.getString(CHAVE_NOME,"Alô:" );
-        campoMensagem.setText("Alô: " +nome);
+        campoMensagem.setText("Alô, " +nome + "!");
     }
 
 
