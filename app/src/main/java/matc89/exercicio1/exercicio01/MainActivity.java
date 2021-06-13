@@ -30,7 +30,8 @@ public class MainActivity extends AppCompatActivity {
     public void cumprimentar(View view){
 
         nome =campoNome.getText().toString();
-        campoMensagem.setText("Alô: " + nome);
+        campoMensagem.setText("Alô: " + nome +"!");
+        campoNome.setText("");
 
     }
     @Override
